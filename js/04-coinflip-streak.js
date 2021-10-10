@@ -4,8 +4,8 @@ var coinFlip;
 do {
     coinFlip = Math.round(Math.random());
     if (!coinFlip) {
-        window.document.write("Heads<br>");
+        window.console.log("Heads<br>");
     } else {
-        window.document.write("Tails");
+        window.console.log("Tails");
     }
 } while (!coinFlip);
